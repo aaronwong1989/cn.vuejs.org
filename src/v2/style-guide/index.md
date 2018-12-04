@@ -1245,7 +1245,7 @@ props: {
 #### 反例
 
 ``` html
-<img src="https://vuejs.org/images/logo.png" alt="Vue Logo">
+<img src="https://vuejs.org/vuejs/images/logo.png" alt="Vue Logo">
 ```
 
 ``` html
@@ -1258,7 +1258,7 @@ props: {
 
 ``` html
 <img
-  src="https://vuejs.org/images/logo.png"
+  src="https://vuejs.org/vuejs/images/logo.png"
   alt="Vue Logo"
 >
 ```

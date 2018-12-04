@@ -14,7 +14,7 @@ order: 601
 
 每个组件实例都有相应的 **watcher** 实例对象，它会在组件渲染的过程中把属性记录为依赖，之后当依赖项的 `setter` 被调用时，会通知 `watcher` 重新计算，从而致使它关联的组件得以更新。
 
-![data](/images/data.png)
+![data](/vuejs/images/data.png)
 
 ## 检测变化的注意事项
 
