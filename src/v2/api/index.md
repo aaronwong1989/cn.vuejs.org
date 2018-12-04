@@ -2085,7 +2085,7 @@ type: api
   <img :src="imageSrc">
 
   <!-- 内联字符串拼接 -->
-  <img :src="'/path/to/vuejs/images/' + fileName">
+  <img :src="'/path/to/images/' + fileName">
 
   <!-- class 绑定 -->
   <div :class="{ red: isRed }"></div>

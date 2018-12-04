@@ -15,7 +15,8 @@ $ npm start # (或者hexo s)预览地址为 http://localhost:4000
 
 ```bash
 $ hexo g
-# 然后将public目录拷贝到web容易的发布目录，将public重命名为vuejs
+# 然后将public目录拷贝到web容器的发布目录，将public重命名为vuejs
+# 将 src/fonts 目录放置到web容器的根目录
 # 访问地址为：http://ip:port/vuejs/
 
 $ hexo s # 预览地址为 http://localhost:4000
