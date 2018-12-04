@@ -6,14 +6,20 @@
 
 ## 开发
 
-``` bash
+```bash
 $ npm install
-$ npm start # 开发服务器地址为 http://localhost:4000
+$ npm start # (或者hexo s)预览地址为 http://localhost:4000
 ```
 
 ## 部署
 
-该站点通过 [Netlify](https://www.netlify.com/) 对 `master` 分支进行自动部署。
+```bash
+$ hexo g
+# 然后将public目录拷贝到web容易的发布目录，将public重命名为vuejs
+# 访问地址为：http://ip:port/vuejs/
+
+$ hexo s # 预览地址为 http://localhost:4000
+```
 
 ## 如何参与贡献
 
